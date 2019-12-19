@@ -42,7 +42,7 @@ gem 'activesupport', '> 3.1', '< 4.2.0' # Used in aweplug by ruby-duration
 gem 'compass', '~> 1.0'
 gem 'rake', '~>10.4'
 gem "octokit", "~> 4.0"
-gem 'docker-api', :require => 'docker'
+gem 'docker-api', '>= 1.32.1'
 gem 'uuid'
 gem 'listen', '3.0.8'
 gem 'akamai-edgegrid', '1.0.6'
