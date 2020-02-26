@@ -10,6 +10,6 @@ group :test do
   # Useful for running the tests on the commandline, and technically they are required
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.10.8'
   gem 'webmock'
 end
