@@ -11,7 +11,7 @@
   "author": "Ian Hamilton (ihamilto@redhat.com)",
   "license": "ISC",
   "dependencies": {
-    "webdriverio": "~4.14.0",
+    "webdriverio": "~5.0.0",
     "async": "^2.5.0",
     "browserstack-local": "^1.3.0",
     "faker": "4.1.0",
@@ -20,7 +20,7 @@
     "path": "^0.12.7",
     "request": "^2.85.0",
     "sync-request": "6.0.0",
-    "wdio-mochawesome-reporter": "^1.3.0",
+    "wdio-mochawesome-reporter": "^3.0.0",
     "asyncawait": "^1.0.6",
     "chai": "^4.1.2",
     "cross-var": "^1.1.0",
@@ -33,7 +33,7 @@
     "mochawesome-report-generator": "^2.3.2",
     "log4js": "^2.6.1",
     "babel-core": "^6.11.4",
-    "babel-loader": "^6.2.4",
+    "babel-loader": "^7.1.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-register": "^6.11.5"
   }
