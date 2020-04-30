@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - karma > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - eslint > table > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/register > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > @semantic-release/github > @octokit/rest > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > handlebars > async > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
+    - travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:42:08.728Z'
