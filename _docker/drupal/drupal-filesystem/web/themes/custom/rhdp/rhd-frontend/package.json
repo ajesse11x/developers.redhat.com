@@ -41,7 +41,7 @@
     "node-sass": "^4.9.3",
     "postcss-cli": "^6.0.0",
     "sassdoc": "^2.5.0",
-    "semantic-release": "^15.9.15",
+    "semantic-release": "^17.2.3",
     "travis-deploy-once": "^5.0.7",
     "typescript": "^3.0.3",
     "uglify-js": "^3.4.9"
