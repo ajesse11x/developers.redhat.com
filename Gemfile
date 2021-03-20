@@ -20,7 +20,7 @@ end
 gem 'awestruct', git: 'https://github.com/lightguard/awestruct', branch: 'feature/perf-testing-large-site'
 #gem 'awestruct', path: '~/projects/ruby/awestruct'
 gem 'slim', '~> 3.0'
-gem 'kramdown', '~> 1.0.1'
+gem 'kramdown', '~> 2.3.1'
 gem 'asciidoctor', '~> 1.5.0'
 gem 'uglifier', '~> 2.0.1'
 gem 'htmlcompressor', '~> 0.0.6'
