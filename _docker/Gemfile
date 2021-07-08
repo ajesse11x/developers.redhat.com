@@ -11,5 +11,5 @@ group :test do
   gem 'minitest'
   gem 'minitest-reporters'
   gem 'nokogiri'
-  gem 'webmock'
+  gem 'webmock', '>= 3.4.2'
 end
