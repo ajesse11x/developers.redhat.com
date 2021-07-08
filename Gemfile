@@ -32,8 +32,8 @@ gem 'nokogiri', '>= 1.6.8', '~> 1.6'
 gem 'therubyracer', platforms: :ruby, require: linux_only('therubyracer')
 gem 'parallel', '~> 1.1'
 gem 'mime-types', '2.1'
-gem 'google-api-client', '~> 0.8'
-gem 'signet', '~> 0.6'
+gem 'google-api-client', '~> 0.8', '>= 0.8.7'
+gem 'signet', '~> 0.7', '>= 0.7.3'
 gem 'gpgme', '~> 2.0'
 gem 'ruby-duration', '~> 3.1'
 gem 'daybreak'
@@ -41,7 +41,7 @@ gem 'sass', '~> 3.4', '< 3.4.6'
 gem 'activesupport', '> 3.1', '< 4.2.0' # Used in aweplug by ruby-duration
 gem 'compass', '~> 1.0'
 gem 'rake', '~>10.4'
-gem "octokit", "~> 4.0"
+gem "octokit", "~> 4.6", ">= 4.6.0"
 gem 'docker-api', :require => 'docker'
 gem 'uuid'
 gem 'listen', '3.0.8'
@@ -59,7 +59,7 @@ group :test do
   gem 'climate_control'
   gem 'guard'
   gem 'guard-minitest'
-  gem 'launchy', '~>2.4'
+  gem 'launchy', '~> 2.4', '>= 2.4.3'
   gem 'rubocop', '~> 0.34.2'
   gem 'minitest-reporters'
   gem 'rspec', '~>3.3'
@@ -68,7 +68,7 @@ group :test do
   gem 'mocha'
   gem 'faker', '~> 1.6', '>= 1.6.1'
   gem 'report_builder', '~> 0.1.2'
-  gem 'webmock', '~> 2.0'
+  gem 'webmock', '~> 2.1', '>= 2.1.0'
 end
 
 group :development do
