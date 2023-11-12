@@ -4,7 +4,9 @@
   "description": "developers.redhat.com build",
   "main": "Gulpfile.js",
   "scripts": {
-    "test": "karma start _docker/drupal/drupal-filesystem/web/themes/custom/rhdp/rhd-frontend/src/tests/unit/config/karma.conf.js"
+    "test": "karma start _docker/drupal/drupal-filesystem/web/themes/custom/rhdp/rhd-frontend/src/tests/unit/config/karma.conf.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Red Hat Inc.",
   "license": "",
@@ -14,12 +16,14 @@
   },
   "dependencies": {
     "jasmine-core": "^3.1.0",
-    "karma": "^2.0.5",
+    "karma": "^6.3.16",
     "karma-chrome-launcher": "^2.2.0",
     "karma-htmlfile-reporter": "^0.3.5",
     "karma-jasmine": "^1.1.2",
     "karma-jasmine-ajax": "^0.1.13",
     "karma-jasmine-html-reporter": "^1.2.0",
-    "karma-spec-reporter": "0.0.32"
-  }
+    "karma-spec-reporter": "0.0.32",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
