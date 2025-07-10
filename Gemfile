@@ -41,10 +41,10 @@ gem 'sass', '~> 3.4', '< 3.4.6'
 gem 'activesupport', '> 3.1', '< 4.2.0' # Used in aweplug by ruby-duration
 gem 'compass', '~> 1.0'
 gem 'rake', '~>10.4'
-gem "octokit", "~> 4.0"
-gem 'docker-api', :require => 'docker'
+gem "octokit", "~> 4.6", ">= 4.6.1"
+gem 'docker-api', '>= 1.33.0', :require => 'docker'
 gem 'uuid'
-gem 'listen', '3.0.8'
+gem 'listen', '3.1.0'
 gem 'akamai-edgegrid', '1.0.6'
 # To use Aweplug code from a different location:
 #
@@ -57,7 +57,7 @@ gem 'aweplug', git: 'https://github.com/awestruct/aweplug'
 
 group :test do
   gem 'climate_control'
-  gem 'guard'
+  gem 'guard', '>= 2.14.1'
   gem 'guard-minitest'
   gem 'launchy', '~>2.4'
   gem 'rubocop', '~> 0.34.2'
@@ -72,7 +72,7 @@ group :test do
 end
 
 group :development do
-  gem 'rb-inotify', require: false
+  gem 'rb-inotify', '>= 0.9.8', require: false
   gem 'rb-fsevent', require: false
   gem 'rb-fchange', require: false
   gem 'pry', require: false
