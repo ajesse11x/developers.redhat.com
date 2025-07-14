@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 gem 'gpgme'
-gem 'docker-api', :require => 'docker'
-gem 'typhoeus'
+gem 'docker-api', '>= 2.0.0', :require => 'docker'
+gem 'typhoeus', '>= 1.0.0'
 gem 'akamai-edgegrid', '1.0.6'
 
 group :test do
