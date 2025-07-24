@@ -28,7 +28,7 @@ gem 'curb', '~> 0.8.5'
 gem 'oauth', '~> 0.3.6'
 gem 'git', '~> 1.2.5'
 gem 'oily_png', '~> 1.1.1'
-gem 'nokogiri', '>= 1.6.8', '~> 1.6'
+gem 'nokogiri', '~> 1.18', '>= 1.18.9'
 gem 'therubyracer', platforms: :ruby, require: linux_only('therubyracer')
 gem 'parallel', '~> 1.1'
 gem 'mime-types', '2.1'
@@ -57,7 +57,7 @@ gem 'aweplug', git: 'https://github.com/awestruct/aweplug'
 
 group :test do
   gem 'climate_control'
-  gem 'guard'
+  gem 'guard', '>= 2.14.1'
   gem 'guard-minitest'
   gem 'launchy', '~>2.4'
   gem 'rubocop', '~> 0.34.2'
