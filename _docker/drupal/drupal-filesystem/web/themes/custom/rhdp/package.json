@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rhd-frontend": "1.0.0"
-  }
+    "rhd-frontend": "1.0.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
